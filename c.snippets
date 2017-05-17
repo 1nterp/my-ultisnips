@@ -113,41 +113,12 @@ snippet fund "function declaration" b
 ${1:void} ${2:function_name}($3);
 endsnippet
 
-## interp
-snippet nui3 "declare unsigned integer"
-nbp_uint32_t
-endsnippet
-snippet nsi3 "declare signed integer"
-nbp_sint32_t
-endsnippet
-snippet nbol "declare boolean"
-nbp_bool_t
-endsnippet
-snippet ncha "declare char"
-nbp_char_t
-endsnippet
+## my
 snippet ntd  "else { // Nothing to do }"
 else
 {
 // Nothing to do.
 }
-endsnippet
-snippet nberet "return block of nbe_rc_t func"
-return NBE_RC_SUCCESS;
-NBE_EXCEPTION_END;
-return NBE_RC_FAILURE;
-endsnippet
-snippet ntrue "NBE_TRUE"
-NBE_TRUE
-endsnippet
-snippet nfalse "NBE_FALSE"
-NBE_FALSE
-endsnippet
-snippet nsucc "NBE_RC_SUCCESS"
-NBE_RC_SUCCESS
-endsnippet
-snippet nfail "NBE_RC_FAILURE"
-NBE_RC_FAILURE
 endsnippet
 
 # vim:ft=snippets:
